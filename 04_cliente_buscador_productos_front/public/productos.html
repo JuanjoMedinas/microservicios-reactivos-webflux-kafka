@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function buscar(){
+            let url="http://localhost:8000/productos/"+$("#categoria").val();
+            let titulos="<thead><tr><th>Nombre</th><th>Precio</th><th>Stock</th><th></th></tr></thead>";
+            $("#productos").html(titulos);
+            let source=new EventSource(url);
+            source.addEventListener("message",function(e){
+                let datos=JSON.parse(e.data);
+                let fila="<tr><td>"+datos.nombre+"</td><td>"+datos.precioUnitario+"</td><td>"+datos.stock+"</td><td><a href='#' onclick='eliminar("+datos.codProducto+")'>Eliminar</a><td></tr>";
+                $("#productos").html($("#productos").html()+fila);
+            });
+            source.addEventListener("error",function(e){
+                source.close();
+            });
+        }
+        function eliminar(codProducto){
+            let url="http://localhost:8000/eliminar?cod="+codProducto;
+            $.ajax({
+                url:url,
+                method:"delete",
+                success:function(a){
+                    buscar();
+                }
+            });
+        }
+
+    </script>
+
+</head>
+<body>
+<div class="container">
+    <br><br>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-2">Introduce categoría:</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" id="categoria">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input type="button" class="btn btn-primary" onclick="buscar();" value="Buscar">
+            </div>
+        </div>
+    </form>
+
+    <br><br>
+    <div>
+        <table class="table table-bordered" id="productos">
+
+        </table>
+    </div>
+</div>
+</body>
+</html>
