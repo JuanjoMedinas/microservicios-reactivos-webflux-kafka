@@ -31,6 +31,7 @@
       <list>
         <option value="$PROJECT_DIR$/01_microservicio_crud_productos/pom.xml" />
         <option value="$PROJECT_DIR$/02_microservicio_nombres_reactivo/pom.xml" />
+        <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo/pom.xml" />
       </list>
     </option>
   </component>
