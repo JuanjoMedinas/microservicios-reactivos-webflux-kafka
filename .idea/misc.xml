@@ -33,7 +33,17 @@
         <option value="$PROJECT_DIR$/02_microservicio_nombres_reactivo/pom.xml" />
         <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo/pom.xml" />
         <option value="$PROJECT_DIR$/05_test_crud_productos_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/06_microservicio_rastreador/pom.xml" />
+        <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo_tienda2/pom.xml" />
+        <option value="$PROJECT_DIR$/03_microservicio_crud_productos_reactivo_tienda2/pom.xml" />
+        <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo-tienda2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo_tienda2/pom.xml" />
+        <option value="$PROJECT_DIR$/03_microservicio_crud_productos_reactivo_tienda2/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="ms-21" project-jdk-type="JavaSDK">
