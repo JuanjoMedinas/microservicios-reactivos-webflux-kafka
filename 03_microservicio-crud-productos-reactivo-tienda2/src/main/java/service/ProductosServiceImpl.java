@@ -12,13 +12,13 @@ import java.util.List;
 @Service
 public class ProductosServiceImpl implements ProductosService {
     private static List<Producto> productos = new ArrayList<>(List.of(new Producto(100, "Azucar", "Alimentación", 1.10, 20),
-            new Producto(101, "Leche", "Alimentación", 1.20, 15),
-            new Producto(102, "Jabón", "Limpieza", 0.89, 30),
-            new Producto(103, "Mesa", "Hogar", 125, 4),
-            new Producto(104, "Televisión", "Hogar", 650, 10),
-            new Producto(105, "Huevos", "Alimentación", 2.20, 30),
-            new Producto(106, "Fregona", "Limpieza", 3.40, 6),
-            new Producto(107, "Detergente", "Limpieza", 8.7, 12)));
+            new Producto(111, "Pan", "Alimentación", 1.3, 10),
+            new Producto(112, "Esponja", "Limpieza", 2, 20),
+            new Producto(113, "Sofá", "Hogar", 80, 4),
+            new Producto(114, "Jarrón", "Hogar", 40, 10),
+            new Producto(115, "Harina", "Alimentación", 3, 30),
+            new Producto(116, "Fregona", "Limpieza", 3.40, 6),
+            new Producto(117, "Cubo", "Limpieza", 2.5, 12)));
 
     @Override
     public Flux<Producto> catalogo() {

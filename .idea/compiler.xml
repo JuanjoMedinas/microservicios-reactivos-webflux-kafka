@@ -8,6 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
+      <profile name="Annotation profile for 05_test_crud_productos_spring" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="05_test_crud_productos_spring" />
+      </profile>
       <profile name="Annotation profile for 03_microservicio-crud-productos-reactivo-tienda2" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -20,7 +30,6 @@
         <module name="03_microservicio-crud-productos-reactivo" />
         <module name="01_microservicio_crud_productos" />
         <module name="03_microservicio-crud-productos-reactivo-tienda2" />
-        <module name="05_test_crud_productos_spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -14,7 +14,7 @@ import service.ElementosService;
 public class ElementosController {
   @Autowired
     ElementosService elementosService;
-  @GetMapping(value = "elementos/precio")
+  @GetMapping(value = "elementos/{precio}")
     public ResponseEntity<Flux<Elemento>>  elementosPrecio (@PathVariable("precio") double precioMax){
       return new ResponseEntity<>(elementosService.elementosPrecioMax(precioMax), HttpStatus.OK);
   }

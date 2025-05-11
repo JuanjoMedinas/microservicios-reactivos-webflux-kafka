@@ -1,0 +1,5 @@
+model/Producto.class
+controller/ProductosController.class
+inicio/Application.class
+service/ProductosServiceImpl.class
+service/ProductosService.class

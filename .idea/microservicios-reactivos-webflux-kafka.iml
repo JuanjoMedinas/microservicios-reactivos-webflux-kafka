@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/03_microservicio-crud-productos-reactivo-tienda2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/03_microservicio-crud-productos-reactivo_tienda2/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
