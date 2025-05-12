@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
       </profile>
-      <profile name="Annotation profile for 05_test_crud_productos_spring" enabled="true">
+      <profile name="Annotation profile for 09_microservicio_rastreador_acceso_securizado" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -16,9 +16,10 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="06_microservicio_rastreador (1)" />
         <module name="05_test_crud_productos_spring" />
       </profile>
-      <profile name="Annotation profile for 06_microservicio_rastreador" enabled="true">
+      <profile name="Annotation profile for 09b_microservicio_rastreador_acceso_securizado_JWT" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -26,12 +27,13 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="02_microservicio_nombres_reactivo" />
-        <module name="06_microservicio_rastreador (1)" />
+        <module name="09b_microservicio_rastreador_acceso_securizado_JWT" />
         <module name="03_microservicio-crud-productos-reactivo-tienda2" />
         <module name="03_microservicio-crud-productos-reactivo-securizado" />
         <module name="06_microservicio_rastreador" />
         <module name="03_microservicio-crud-productos-reactivo" />
         <module name="01_microservicio_crud_productos" />
+        <module name="08b_microservicio-crud-productos-reactivo-securizado-JWT" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +53,8 @@
       <module name="05_test_crud_productos_spring" options="-parameters" />
       <module name="06_microservicio_rastreador" options="-parameters" />
       <module name="06_microservicio_rastreador (1)" options="-parameters" />
+      <module name="08b_microservicio-crud-productos-reactivo-securizado-JWT" options="-parameters" />
+      <module name="09b_microservicio_rastreador_acceso_securizado_JWT" options="-parameters" />
     </option>
   </component>
 </project>

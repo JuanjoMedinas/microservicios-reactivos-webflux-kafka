@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>03_microservicio-crud-productos-reactivo-tienda2</artifactId>
+	<artifactId>08b_microservicio-crud-productos-reactivo-securizado-JWT</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>03_microservicio-crud-productos-reactivo-tienda2</name>
+	<name>08b_microservicio-crud-productos-reactivo-securizado-JWT</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -49,6 +49,25 @@
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.12.6</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.12.6</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.12.6</version>
 		</dependency>
 	</dependencies>
 

@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/06_microservicio_rastreador/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_microservicio_rastreador/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08_microservicio-crud-productos-reactivo-securizado/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08b_microservicio-crud-productos-reactivo-securizado-JWT/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09_microservicio_rastreador_acceso_securizado/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09b_microservicio_rastreador_acceso_securizado_JWT/src/main/java" charset="UTF-8" />
   </component>
 </project>

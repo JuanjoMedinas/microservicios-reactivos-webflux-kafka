@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/03_microservicio-crud-productos-reactivo-tienda2/pom.xml" />
         <option value="$PROJECT_DIR$/08_microservicio-crud-productos-reactivo-securizado/pom.xml" />
         <option value="$PROJECT_DIR$/09_microservicio_rastreador_acceso_securizado/pom.xml" />
+        <option value="$PROJECT_DIR$/08b_microservicio-crud-productos-reactivo-securizado-JWT/pom.xml" />
+        <option value="$PROJECT_DIR$/09b_microservicio_rastreador_acceso_securizado_JWT/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
